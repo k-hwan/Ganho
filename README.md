@@ -29,14 +29,18 @@
 ## 📌팀원 소개
 ### D209 - 기획 폭발단
 
-| 이름    | 역할  | 별명    | 파트 |
-| ------ | ------ | ---- | ---|
-| **이승지**  | 팀장 | | 안드로이드 |   
-| **한아영** | 팀원 | 아용 |인프라, 백엔드, 안드로이드 |      
-| **서정후** |  팀원 | 즈후 | 디자인, 안드로이드, AI |     
-| **황홍법** | 팀원 | 왕밤빵 | 웹 프론트, IoT |  
-| **김환** |팀원 | 지디 | 백엔드  |  
- | **강민석** | 팀원 | 닭강정 | 백엔드 |  
+ | <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">이승지</div> |  <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">서정후</div> | <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">황홍법</div> |
+|:---------:|:---------:|:---------:|
+| [<img src="https://avatars.githubusercontent.com/bmlsj" height=200 width=200> <br/> @bmlsj](https://github.com/bmlsj) | [<img src="https://avatars.githubusercontent.com/bluemango0312" height=200 width=200> <br/> @bluemango0312](https://github.com/bluemango0312)  | [<img src="https://avatars.githubusercontent.com/Hongbeob" height=200 width=200> <br/> @Hongbeob](https://github.com/Hongbeob) |
+| 팀장, Android |  AI, Android, Design | Frontend, IoT | 
+|  | 즈후 | 왕밤빵 |
+
+| <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">한아영</div> | <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">김환</div> | <div align="center" style="display: flex; align-items: center; justify-content: center; height: 100px;">강민석</div> |
+|:--------:|:---------:|:---------:|
+| [<img src="https://avatars.githubusercontent.com/hanayoung" height=200 width=200> <br/> @hanayoung](https://github.com/hanayoung) | [<img src="https://avatars.githubusercontent.com/k-hwan" height=200 width=200> <br/> @k-hwan](https://github.com/k-hwan) | [<img src="https://avatars.githubusercontent.com/KR-ImPlant" height=200 width=200> <br/> @KR-ImPlant](https://github.com/KR-ImPlant) |
+| BE, Infra, WearOS | BE, UCC | BE |
+| 아용 | 지디 | 닭강정 |
+
 
 <br>
 
@@ -132,7 +136,6 @@
 - [API 명세서 및 Swagger](docs/API설계서.md)
 - [ERD 다이어그램](docs/ERD.md)
 - [시스템 아키텍처](docs/시스템아키텍처.md)
-- Flow Chart
 - [시연 영상](https://www.youtube.com/watch?v=yBpvuW4fWwE)
 - [최종 발표 PPT](docs/12기_공통PJT_발표자료.pdf)
 
@@ -157,9 +160,9 @@
     
     - 회원가입에서 입력한 아이디와 비밀번호를 입력하여 로그인을 할 수 있습니다.
 
-<img width=15% src="https://github.com/user-attachments/assets/4a27e0c9-3138-4b00-8c0a-be4f97e3650a">
+<img width=200 src="https://github.com/user-attachments/assets/4a27e0c9-3138-4b00-8c0a-be4f97e3650a">
 
-<img width=20% src="https://github.com/user-attachments/assets/122c1463-f4b0-4678-b9f4-922e09e3c511">
+<img width=240 src="https://github.com/user-attachments/assets/122c1463-f4b0-4678-b9f4-922e09e3c511">
 
 <br>
 </br>
@@ -183,7 +186,7 @@
     
     (2) 해당 페이지에서 회원에 대한 기본정보와 기본 상호작용(로그아웃, 회원정보수정, 회원탈퇴)를 제공합니다.
 
-<img width=30% src="https://github.com/user-attachments/assets/9102188a-e607-4c18-8e2a-07b1d26e3193">
+<img width=240 src="https://github.com/user-attachments/assets/9102188a-e607-4c18-8e2a-07b1d26e3193">
 
 <br>
 </br>
@@ -204,7 +207,7 @@
 
     (3) 근무표 등록 완료 이후 “주 단위 보기” 버튼 클릭시 현재 일에 해당하는 주의 근무표로 이동
 
-<img width=30% src="https://github.com/user-attachments/assets/d35dd134-3fc0-469d-8556-fc5d0b5f6b28">
+<img width=240 src="https://github.com/user-attachments/assets/d35dd134-3fc0-469d-8556-fc5d0b5f6b28">
 
 <br>
 </br>
@@ -226,7 +229,7 @@
 1. **검색 바 활성화:** 검색 바를 클릭하여 입력 상태로 전환합니다. 
 2. **의약품 사진 ai 카메라 :** 사진 찍으면 자동으로 알약 인식
 
-<img width=30% src="https://github.com/user-attachments/assets/3109c552-120a-4af3-b76b-234fe03e0af3">
+<img width=240 src="https://github.com/user-attachments/assets/3109c552-120a-4af3-b76b-234fe03e0af3">
 
 <br>
 </br>
@@ -254,9 +257,9 @@
     
     - 그룹 상세 페이지에서 그룹원이 **그룹초대링크 공유하기**를 누르면 링크가 복사됩니다. 이때 그룹원이 아닌 사용자는 이 링크를 통해 그룹 초대링크 페이지로 이동할 수 있고, 이때 그룹원이 아닌 사람이 그룹초대 수락을 누를시, 앱으로 이동하여 그룹에 가입되게 됩니다.
 
-<img width=30% src="https://github.com/user-attachments/assets/3c87a59a-8f17-404a-ad13-f48fe8d80ffd">
+<img width=240 src="https://github.com/user-attachments/assets/3c87a59a-8f17-404a-ad13-f48fe8d80ffd">
 
-<img width=30% src="https://github.com/user-attachments/assets/bc336db9-8c9d-42a6-960f-40a5eb6bab60">
+<img width=200 src="https://github.com/user-attachments/assets/bc336db9-8c9d-42a6-960f-40a5eb6bab60">
 
 <br>
 </br>
@@ -273,9 +276,9 @@
     - 친구가 아닌 다른 사람을 검색할 수 있습니다.
     - 친구 검색에서 친구 신청을 할 수 있습니다.
 
-<img width=40% src="https://github.com/user-attachments/assets/ba32a219-4a0e-4fe4-b061-e863503c9eda">
+<img width=240 src="https://github.com/user-attachments/assets/ba32a219-4a0e-4fe4-b061-e863503c9eda">
 
-<img width=30% src="https://github.com/user-attachments/assets/b25f562c-ae45-484e-8297-b57037192850">
+<img width=200 src="https://github.com/user-attachments/assets/b25f562c-ae45-484e-8297-b57037192850">
 
 <br>
 </br>
@@ -300,7 +303,7 @@
     - 리모컨 버튼은 4개로 긴급/의료/기본/
 
 
-<img width=500 src="https://github.com/user-attachments/assets/cf01b813-9352-4a67-9a8d-c56476fc3f00">
+<img width=1000 src="https://github.com/user-attachments/assets/cf01b813-9352-4a67-9a8d-c56476fc3f00">
 
 
 <br>
