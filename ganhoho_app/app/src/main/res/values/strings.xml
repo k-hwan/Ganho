@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">간호호</string>
-    <string name="nav_work">근무 일정</string>
-    <string name="nav_pill">알약 찾기</string>
-    <string name="nav_home">홈</string>
-    <string name="nav_group">그룹</string>
-    <string name="nav_friend">친구</string>
-</resources>

@@ -7,7 +7,7 @@ spring:
   application:
     name: Ganhoho
   datasource:
-    url: jdbc:mysql://localhost:3306/ganhoho?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3307/ganhoho?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
     username: d209
     password: d209
   servlet:
@@ -23,14 +23,18 @@ spring:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.MySQLDialect
+        hbm2ddl:
+          auto: update
     defer-datasource-initialization: true
     hibernate:
       ddl-auto: none
 
   data:
     mongodb:
-      uri: mongodb://localhost:27017/ganhoho
+      uri: mongodb://127.0.0.1:27017/ganhoho
       auto-index-creation: true
+
+
   mvc:
     dispatch-options-request: true
     dispatch-trace-request: true
@@ -55,7 +59,7 @@ server:
 
 logging:
   pattern:
-    console: "%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n"
+    console: "%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %magenta([trace:%X{traceId} user:%X{userId}]) %yellow(%logger{15}) - %msg%n"
 
 
 jwt:
