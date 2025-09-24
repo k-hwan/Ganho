@@ -83,3 +83,16 @@ iot:
 url:
   https: https_address
   http: http_address
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    prometheus:
+      enabled: true
+  metrics:
+    tags:
+      application: ganhoho-backend

@@ -66,6 +66,7 @@ public class ProjectSecurityConfig {
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/api/auth/**", "/error", "/api/notifications/button-patterns", "/api/groups/invite/**").permitAll()
                         .requestMatchers("/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs","/v3/api-docs/**", "/swagger-resources/**", "/webjars/**").permitAll()
+                        .requestMatchers("/actuator/**").permitAll()
                         .anyRequest().authenticated())
                 .addFilterBefore(new JWTFilter(jwtUtil), BasicAuthenticationFilter.class)
                 .requiresChannel(rcc -> rcc.anyRequest().requiresInsecure())
