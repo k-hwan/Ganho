@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  k6:
+    image: grafana/k6:latest
+    volumes:
+      - ./loadtest.js:/scripts/loadtest.js
+    command: run /scripts/loadtest.js
+    network_mode: "host"  # 호스트 네트워크 사용

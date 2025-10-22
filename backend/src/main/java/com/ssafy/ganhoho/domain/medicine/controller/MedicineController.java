@@ -6,8 +6,10 @@ import com.ssafy.ganhoho.domain.medicine.dto.UploadImageResponse;
 import com.ssafy.ganhoho.domain.medicine.service.MedicineService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
 @Slf4j
@@ -27,8 +29,8 @@ public class MedicineController {
         return medicineService.searchMedicineByName(itemName);
     }
 
-    @PostMapping("/api/medicines/upload-image")
-    public ResponseEntity<UploadImageResponse> uploadMedicineImage(@RequestParam("imageFile") MultipartFile imageFile) {
+    @PostMapping(value = "/api/medicines/upload-image", consumes = MediaType.MULTIPART_FORM_DATA_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<UploadImageResponse> uploadMedicineImage(@RequestPart("imageFile") MultipartFile imageFile) {
         return medicineService.uploadMedicineImage(imageFile);
     }
 }

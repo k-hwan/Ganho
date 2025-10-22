@@ -2,11 +2,11 @@ package com.ssafy.ganhoho.domain.schedule.service;
 
 import com.ssafy.ganhoho.domain.schedule.dto.PersonalScheduleRequestDto;
 import com.ssafy.ganhoho.domain.schedule.dto.PersonalScheduleResponseDto;
+import com.ssafy.ganhoho.domain.schedule.dto.ScheduleDetailResponseDto;
 import com.ssafy.ganhoho.domain.schedule.entity.PersonalSchedule;
 import com.ssafy.ganhoho.domain.schedule.entity.ScheduleDetail;
 import com.ssafy.ganhoho.domain.schedule.repository.PersonalScheduleRepository;
 import com.ssafy.ganhoho.domain.schedule.repository.ScheduleDetailRepository;
-import com.ssafy.ganhoho.global.auth.jwt.JWTUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.Map;
 import java.util.HashMap;
-import java.text.SimpleDateFormat;
 import java.util.Optional;
 
 @Service
@@ -33,7 +32,6 @@ public class PersonalScheduleService {
 
     private final PersonalScheduleRepository personalScheduleRepository;
     private final ScheduleDetailRepository scheduleDetailRepository;
-    private final JWTUtil jwtUtil;
 
     public PersonalScheduleResponseDto addPersonalSchedule(PersonalScheduleRequestDto requestDto, Long memberId) {
         PersonalSchedule schedule = new PersonalSchedule();
@@ -178,55 +176,45 @@ public class PersonalScheduleService {
         }
     }
 
-    public Map<String, List<Map<String, Object>>> getPersonalSchedulesByMemberId(Long memberId) {
+    public List<ScheduleDetailResponseDto> getPersonalSchedulesByMemberId(Long memberId) {
         List<PersonalSchedule> schedules = personalScheduleRepository.findByMemberId(memberId);
 
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm");
-
-        List<Map<String, Object>> formattedSchedules = schedules.stream()
-                .filter(schedule -> schedule.getIsPublic())
+        List<ScheduleDetailResponseDto> list = schedules.stream()
+                .filter(schedule -> Boolean.TRUE.equals(schedule.getIsPublic()))
                 .flatMap(schedule -> schedule.getScheduleDetails().stream()
-                        .map(detail -> {
-                            Map<String, Object> map = new HashMap<>();
-                            map.put("scheduleId", schedule.getScheduleId());
-                            map.put("startDt", detail.getStartDt());
-                            map.put("endDt", detail.getEndDt() != null ? detail.getEndDt() : null);
-                            map.put("scheduleTitle", detail.getScheduleTitle());
-                            map.put("scheduleColor", detail.getScheduleColor());
-                            return map;
-                        }))
+                        .map(detail -> ScheduleDetailResponseDto.builder()
+                                .scheduleId(schedule.getScheduleId())
+                                .detailId(detail.getDetailId())
+                                .startDt(detail.getStartDt())
+                                .endDt(detail.getEndDt())
+                                .scheduleTitle(detail.getScheduleTitle())
+                                .scheduleColor(detail.getScheduleColor())
+                                .isPublic(schedule.getIsPublic())
+                                .isTimeSet(detail.getIsTimeSet())
+                                .build()))
                 .collect(Collectors.toList());
 
-        Map<String, List<Map<String, Object>>> response = new HashMap<>();
-        response.put("data", formattedSchedules);
-
-        return response;
+        return list;
     }
 
-    public Map<String, List<Map<String, Object>>> getFormattedPersonalSchedules(Long memberId) {
+    public List<ScheduleDetailResponseDto> getFormattedPersonalSchedules(Long memberId) {
         List<PersonalScheduleResponseDto> schedules = getPersonalSchedules(memberId);
 
-//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm");
-
-        List<Map<String, Object>> formattedSchedules = schedules.stream()
+        List<ScheduleDetailResponseDto> list = schedules.stream()
                 .flatMap(schedule -> schedule.getDetails().stream()
-                        .map(detail -> {
-                            Map<String, Object> map = new HashMap<>();
-                            map.put("scheduleId", schedule.getScheduleId());
-                            map.put("startDt", detail.getStartDt());
-                            map.put("endDt", detail.getEndDt() != null ? detail.getEndDt() : null);
-                            map.put("scheduleTitle", detail.getScheduleTitle());
-                            map.put("scheduleColor", detail.getScheduleColor());
-                            map.put("isPublic", detail.getIsPublic());
-                            map.put("isTimeSet", detail.getIsTimeSet());
-                            return map;
-                        }))
+                        .map(detail -> ScheduleDetailResponseDto.builder()
+                                .scheduleId(schedule.getScheduleId())
+                                .detailId(detail.getDetailId())
+                                .startDt(detail.getStartDt())
+                                .endDt(detail.getEndDt())
+                                .scheduleTitle(detail.getScheduleTitle())
+                                .scheduleColor(detail.getScheduleColor())
+                                .isPublic(detail.getIsPublic())
+                                .isTimeSet(detail.getIsTimeSet())
+                                .build()))
                 .collect(Collectors.toList());
 
-        Map<String, List<Map<String, Object>>> response = new HashMap<>();
-        response.put("data", formattedSchedules);
-
-        return response;
+        return list;
     }
 
     public PersonalSchedule getSchedule(Long scheduleId) {

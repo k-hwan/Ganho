@@ -2,6 +2,7 @@ package com.ssafy.ganhoho.domain.schedule.controller;
 
 import com.ssafy.ganhoho.domain.schedule.dto.PersonalScheduleRequestDto;
 import com.ssafy.ganhoho.domain.schedule.dto.PersonalScheduleResponseDto;
+import com.ssafy.ganhoho.domain.schedule.dto.ScheduleDetailResponseDto;
 import com.ssafy.ganhoho.domain.schedule.service.PersonalScheduleService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -206,12 +207,11 @@ public class PersonalScheduleController {
                         """))),
     })
     @GetMapping("/personal")
-    public ResponseEntity<Map<String, List<Map<String, Object>>>> getPersonalSchedules() {
+    public ResponseEntity<List<ScheduleDetailResponseDto>> getPersonalSchedules() {
         CustomUserDetails userDetails = validateToken();
         Long memberId = userDetails.getUserId();
-
-        Map<String, List<Map<String, Object>>> schedules = personalScheduleService.getFormattedPersonalSchedules(memberId);
-        if (schedules.isEmpty()) {
+        List<ScheduleDetailResponseDto> schedules = personalScheduleService.getFormattedPersonalSchedules(memberId);
+        if (schedules == null || schedules.isEmpty()) {
             throw new CustomException(ErrorCode.NOT_EXIST_DATA);
         }
         
@@ -370,7 +370,7 @@ public class PersonalScheduleController {
                         """))),
     })
     @GetMapping("/personal/{memberId}")
-    public ResponseEntity<Map<String, List<Map<String, Object>>>> getPersonalSchedulesByMemberId(
+    public ResponseEntity<List<ScheduleDetailResponseDto>> getPersonalSchedulesByMemberId(
             @Parameter(description = "조회할 멤버의 ID") @PathVariable Long memberId) {
         validateToken();  // 토큰 검증
 
@@ -378,8 +378,8 @@ public class PersonalScheduleController {
             throw new CustomException(ErrorCode.INVALID_REQUEST_PARAMETERS);
         }
 
-        Map<String, List<Map<String, Object>>> response = personalScheduleService.getPersonalSchedulesByMemberId(memberId);
-        if (response.isEmpty()) {
+        List<ScheduleDetailResponseDto> response = personalScheduleService.getPersonalSchedulesByMemberId(memberId);
+        if (response == null || response.isEmpty()) {
             throw new CustomException(ErrorCode.NOT_EXIST_DATA);
         }
         
