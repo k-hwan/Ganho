@@ -387,4 +387,4 @@ public class MedicineServiceImpl implements MedicineService {
                 .ITEM_IMAGE("")
                 .build();
     }
-}
+}   
