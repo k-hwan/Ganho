@@ -4,7 +4,234 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="294ba424-afc2-4180-afd6-e650224bdf76" name="Changes" comment="" />
+    <list default="true" id="294ba424-afc2-4180-afd6-e650224bdf76" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/base/ApplicationClass.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/base/AuthInterceptor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/base/KakaoInterceptor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/base/SecureDataStore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/base/TokenManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/auth/LoginRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/auth/SignUpRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/friend/FriendAddRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/friend/FriendApproveRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/friend/FriendDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/friend/FriendFavoriteRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/friend/FriendRequestDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/group/GroupDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/group/WorkScheduleDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/member/MemberDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/member/UpdateHospitalWardRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/notification/Notification.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/FriendPublicSchedule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/MySchedule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/MyScheduleDetail.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/MyScheduleRequest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/TimelineEvent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/WorkScheduleDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/dto/schedule/WorkType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/ErrorResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/HandleResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/auth/KakaoSearchResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/auth/LoginResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/auth/SignUpResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/friend/FriendAddResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/friend/FriendApproveResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/GroupInviteLinkResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/GroupInviteResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/GroupMemberResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/GroupViewModelFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/LeaveGroupResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/group/MemberMonthlyScheduleResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/member/MyPageResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/notification/NotificationResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/AddMyScheduleResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/FriendPersonalResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/FriendWorkResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/MyScheduleResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/MyWorkResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/model/response/schedule/ScheduleUpdateResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/AuthService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/FriendService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/GroupService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/KakaoSearchService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/MemberService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/NotiService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/RetrofitUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/data/remote/ScheduleService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/fcm/LocationWorker.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/fcm/MyFirebaseMessageService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/AuthRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/FriendRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/GroupRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/HospitalSearchRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/MemberRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/NotificationRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/repository/ScheduleRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/AuthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/BasicTopAppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/LoadingScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/auth/AuthDataStore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/auth/JoinScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/auth/LoginScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/auth/SearchHospital.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/bottom_navigation/AppNavHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/bottom_navigation/BottomNavigation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/friend/FriendScheduleScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/friend/FriendScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/friend/common/FriendAdd.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/friend/common/FriendList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/friend/common/FriendRequestList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/GroupDetailScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/GroupLeaveDialog.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/GroupMemberScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/GroupScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/GroupScreenWithBottomSheet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/group/common/GroupList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/AddDateBottomSheet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/DayBottomSheet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/HomeScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/TimeLine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/common/DatePickerModal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/home/common/TimePicker.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/mypage/MyPageScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/mypage/NotificationScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/mypage/UpdateMemberInfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/nav_host/AuthNavHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/nav_host/Route.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/pill/AndroidCameraInterface.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/pill/PillScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/splash/AnimatedSplashScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/ui/work_schedule/WorkScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/CameraPermission.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/ConvertWorkScheduleToSchedule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/DateUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/NotificationPermission.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/ParseColor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/PermissionChecker.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/RequestMultiplePermissions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/SharedPreferencesUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/WebViewWithToken.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/util/requestBackgroundLocationPermission.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/AuthViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/BottomNavViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/FriendViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/GroupViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/HospitalSearchViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/MemberViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/NotifiViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/java/com/ssafy/ganhoho/viewmodel/ScheduleViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/appinfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/bottom_calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/bottom_friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/bottom_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/bottom_home_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/bottom_pill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/character1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/character2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_beer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_heart_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_hospital.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_nurse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_school.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/emoji_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/group_add_icon_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/home_health.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/hospital_room.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_dropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_group_person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_nav_friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_nav_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_nav_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_nav_pill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_nav_work.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/icon_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/inner_shadow_textfield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/login_character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/logo_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/logo_image_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/modify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/mypage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/nav_friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/nav_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/nav_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/nav_pill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/nav_work.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/unsubscribe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/visibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/drawable/visibilty_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/inter.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream1.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream2.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream3.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream4.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream5.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream6.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream7.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream8.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/font/scdream9.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/raw/loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/values-v21/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/MessageReceiverService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/RetrofitInstance.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/UserDataStore.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/notification/Notification.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/notification/NotificationRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/notification/NotificationScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/notification/NotificationService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/notification/NotificationViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/java/com/ssafy/ganhoho/presentation/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/drawable/splash_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/values-round/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganhoho_app/watch/src/main/res/values/styles.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +251,14 @@
         <entry key="$PROJECT_DIR$" value="feat/back/auth" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2sVlyDEZdXAnKqFFuPBdxylghdu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,11 +266,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SSAFY/Desktop/common/backend",
+    "last_opened_file_path": "C:/Users/USER/Desktop/ganhoho/Ganho/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,8 +294,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
